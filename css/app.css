@@ -1,0 +1,152 @@
+@import url('desktop.css') screen and (min-device-width : 480px);
+
+
+body {
+	background: #f4f4f4;
+	font-family: Helvetica, sans-serif;
+	font-size: 62.5%;
+	margin: 2rem 0;
+}
+
+/* STYLES FOR HEADLINE */
+#head_cont {
+	color: #898989;
+	font-size : 1rem;
+}
+
+h1 {
+	text-transform: uppercase;
+	line-height: 1;
+	font-size : 3rem;
+}
+
+#body_cont {
+	color: #4d4d4d;
+}
+
+/* STYLES FOR POSTS */
+
+.post {
+	box-shadow: 0 .1rem .1rem #e5e5e5;
+    border-radius: .3rem;
+	background: #fff;
+	overflow: hidden;
+	margin-bottom: 1.5rem;
+}
+
+.post_img {
+	position: relative;
+}
+.post_img_footer {
+    box-shadow: -1rem -6rem 3.5rem -3rem #333 inset;
+    height: 6rem;
+    width: 100%;
+    position: absolute;
+    margin-top: -6rem;
+	text-align: right;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: bold;
+	padding-top: 3rem;
+	padding-right: .5rem;
+}
+.post_likes, .post_comments {
+	display: inline-block;
+	margin-right: 1.6rem;
+}
+
+.likes_img {
+	background: url('img/icons.png') no-repeat -32px 0;
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	zoom: 70%;
+}
+.comments_img {
+	background: url('img/icons.png') no-repeat 0px 0;
+	display: inline-block;
+	width: 31px;
+	height: 32px;
+	zoom: 70%;
+}
+.comments_count, .likes_count {
+	vertical-align: top;
+	margin-left: .3rem;
+}
+
+.post_textblock {
+	padding: 1rem 1rem 0;
+	font-size: 1rem;
+}
+.post_headline {
+	font-size: 1.3rem;
+	margin-bottom: .5rem;
+	font-weight: bold;
+}
+
+hr {
+	color: #e5e5e5;
+	margin: 0;
+}
+
+.post_author {
+	font-size: .8rem;
+	padding: .5rem 1rem;
+	font-weight: bold;
+	position: relative;
+}
+
+.post_author_center {
+	display: inline-block;
+	vertical-align: middle;
+	word-wrap: break-word;
+	
+}
+
+.post_author_date {
+	color: #afafaf;
+}
+
+.post_author_img {
+	width: 5rem;
+	clip-path: circle(1.6rem at center);
+	display: none;
+	
+}
+
+.post_author_more {
+	display: inline-block;
+	vertical-align: middle;
+	position: absolute;
+	right: 1rem;
+	top: .8rem;
+}
+.post_author_more:after {
+	content: '\2807';
+	font-size: 1.3rem;  
+}
+
+/* STYLES FOR FOOTER LINK */
+
+#link_cont {
+	font-size: 1.5rem;
+	text-align: right;
+	color: #ff3646;
+	fill: #ff3646;
+}
+.link_more {
+	display: inline-block;
+	vertical-align: middle;
+}
+.arrow {
+	display: inline-block;
+	width: 2.3rem;
+	height: 2.3rem;
+	background: #fff;
+	border-radius: 3rem;
+	box-shadow: 0 .1rem .1rem #e5e5e5;
+	vertical-align: middle;
+	margin-left: .3rem;
+	padding: .3rem;
+}
+
