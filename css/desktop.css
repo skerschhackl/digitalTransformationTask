@@ -1,0 +1,54 @@
+body { background: yellow;}
+
+.post_textblock {
+	font-size: .7rem !important;
+	font-weight: bold;
+}
+.post_headline {
+	font-size: .92rem !important;
+}
+
+.post_author {
+	font-size: .7rem !important;
+	padding: 0 !important;
+}
+
+.post_author_center {
+}
+
+.post_author_img {
+	display: inline-block !important;
+}
+
+.post_img_footer {
+	box-shadow: -10px -40px 35px -30px #333 inset !important;
+	font-size: .75rem !important;
+	padding-top: 4.2rem !important;
+}
+
+.post_likes, .post_comments {
+	cursor: pointer;
+	margin-right: .6rem !important;
+}
+
+.likes_img, .comments_img {
+	zoom: 35% !important;
+	-moz-transform: scale(.5);
+	-moz-transform-origin: top center;
+}
+
+.post_author_more {
+	top: 2rem !important;
+}
+
+#link_cont {
+	font-size: .8rem !important;
+}
+
+.link_more {
+	cursor: pointer;
+}
+
+.arrow {
+	padding: .5rem !important;
+}
